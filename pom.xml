@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
   <build>
     <plugins>
       <plugin>
@@ -30,8 +31,13 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.tika</groupId>
-      <artifactId>tika-app</artifactId>
+      <artifactId>tika-parsers</artifactId>
       <version>1.6</version>
+    </dependency>
+	<dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.11.0</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
